@@ -1,4 +1,4 @@
-# Tensorflow-Siamese-spatial-Graph-Convolution-Network
+# Tensorflow-Siamese-spatial-Graph-Convolution-Network-Image Retrieval
 
 * This is a simple siamese MLP network with Tensorflow
 * Retrieval MAP value of 81.79(%)	and precision at top-10 retrieval of 97.14(%) on the benchmark PatternNet dataset.
