@@ -1,9 +1,15 @@
 # Tensorflow-Siamese graph convolutional network for content based remote sensing image retrieval
 
+[Paper](https://reader.elsevier.com/reader/sd/pii/S1077314219300578?token=FF18DF6BD33340CB07179AE964A960F224B8A29AC597C8D4875C71AF366407364D877984BA4E1BA4FF97548B3C83FB2A) | [TensorFlow](https://www.tensorflow.org/)
+
 * This is a simple siamese MLP network with Tensorflow
 * Retrieval MAP value of 81.79(%)	and precision at top-10 retrieval of 97.14(%) on the benchmark PatternNet dataset.
 * Retrieval MAP value of 69.89(%) and precision at top-10 retrieval of 93.63(%) on the benchmark UC-Merced dataset.
 * MLP network is built based on TensorFlow on top of the fully-connected features obtained from Graph Convolution Network (https://github.com/nsk1001/multi-label-analysis)
+
+
+<img src=siam.jpg alt="Pipeline of the overall network" width="700">
+
 * If you use this model, please cite the following paper:
 
 ### Paper
